@@ -34,5 +34,5 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://cypress/include:cypress-13.13.2-node-20.16.0-chrome-127.0.6533.88-1-ff-128.0.3-edge-127.0.2651.74-1 docker://registry.cn-hangzhou.aliyuncs.com/jdokcer/docker:cypress-13.13.2-node-20.16.0-chrome-127.0.6533.88-1-ff-128.0.3-edge-127.0.2651.74-1
+        skopeo copy docker://cypress-13.13.2-node-20.16.0-chrome-127.0.6533.88-1-ff-128.0.3-edge-127.0.2651.74-1 docker://registry.cn-hangzhou.aliyuncs.com/jdokcer/docker:cypress-13.13.2-node-20.16.0-chrome-127.0.6533.88-1-ff-128.0.3-edge-127.0.2651.74-1
  
