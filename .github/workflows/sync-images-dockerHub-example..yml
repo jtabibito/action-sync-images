@@ -33,10 +33,10 @@ jobs:
 
     - name: Update Skopeo to newest version
       run: sudo apt-get -y update
-        
+      
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         skopeo --version
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/cypress/included:cypress-13.13.2-node-20.16.0-chrome-127.0.6533.88-1-ff-128.0.3-edge-127.0.2651.74-1 docker://registry.cn-hangzhou.aliyuncs.com/jdokcer/docker:cypress-13.13.2-node-20.16.0-chrome-127.0.6533.88-1-ff-128.0.3-edge-127.0.2651.74-1 --multi-arch=all
+        skopeo copy --all docker://docker.io/cypress/included:cypress-13.13.2-node-20.16.0-chrome-127.0.6533.88-1-ff-128.0.3-edge-127.0.2651.74-1 docker://registry.cn-hangzhou.aliyuncs.com/jdokcer/docker:cypress-13.13.2-node-20.16.0-chrome-127.0.6533.88-1-ff-128.0.3-edge-127.0.2651.74-1
  
