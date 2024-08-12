@@ -39,6 +39,6 @@ jobs:
         skopeo --version
         #!/usr/bin/env bash
         skopeo copy --all docker://docker.io/cypress/included:cypress-13.13.2-node-20.16.0-chrome-127.0.6533.88-1-ff-128.0.3-edge-127.0.2651.74-1 docker://registry.cn-hangzhou.aliyuncs.com/jdokcer/docker:cypress-13.13.2-node-20.16.0-chrome-127.0.6533.88-1-ff-128.0.3-edge-127.0.2651.74-1
-        skopeo copy --all docker://docker.io/cypress/factory:4.0.6 docker://registry.cn-hangzhou.aliyuncs.com/jdokcer/docker:cypress/factory-4.0.6
-        skopeo copy --all docker://docker.io/cypress/base:20.16.0 docker://registry.cn-hangzhou.aliyuncs.com/jdokcer/docker:cypress/base-20.16.0
-        skopeo copy --all docker://docker.io/cypress/browsers:node-20.16.0-chrome-127.0.6533.88-1-ff-128.0.3-edge-127.0.2651.74-1 docker://registry.cn-hangzhou.aliyuncs.com/jdokcer/docker:cypress/browsers-node-20.16.0-chrome-127.0.6533.88-1-ff-128.0.3-edge-127.0.2651.74-1
+        skopeo copy --all docker://docker.io/cypress/factory:4.0.6 docker://registry.cn-hangzhou.aliyuncs.com/jdokcer/docker:cypress-factory-4.0.6
+        skopeo copy --all docker://docker.io/cypress/base:20.16.0 docker://registry.cn-hangzhou.aliyuncs.com/jdokcer/docker:cypress-base-20.16.0
+        skopeo copy --all docker://docker.io/cypress/browsers:node-20.16.0-chrome-127.0.6533.88-1-ff-128.0.3-edge-127.0.2651.74-1 docker://registry.cn-hangzhou.aliyuncs.com/jdokcer/docker:cypress-browsers-node-20.16.0-chrome-127.0.6533.88-1-ff-128.0.3-edge-127.0.2651.74-1
